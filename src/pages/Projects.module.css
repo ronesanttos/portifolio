@@ -1,0 +1,65 @@
+/* Projects.module.css */
+.projects {
+  padding: 5rem 0;
+  background: #0f172a;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filterBtn {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.filterBtn:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+/* Grid de projetos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* BOTÃO ATIVO */
+.active {
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 3rem 1rem;
+  }
+}

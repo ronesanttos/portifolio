@@ -1,0 +1,90 @@
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 260px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.description {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+.techContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.github,
+.demo,
+.detailsBtn {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.github {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.github:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.demo {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.demo:hover {
+  background: #10739e;
+  opacity: 0.85;
+}
+
+.detailsBtn{
+  background: #51bd7a;
+  color: #0f172a;
+}
+
+.detailsBtn:hover {
+  background: #179246fb;
+  opacity: 0.85;
+}

@@ -1,0 +1,58 @@
+.form {
+  max-width: 600px;
+  background: var(--bg-secondary);
+  padding: 2.5rem;
+  border-radius: var(--border-radius);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.field label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.field input,
+.field textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background: #020617;
+  color: var(--color-text);
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: 2px solid var(--color-primary);
+}
+
+button {
+  background: var(--color-primary);
+  color: #020617;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.success {
+  background: var(--bg-secondary);
+  padding: 3rem;
+  border-radius: var(--border-radius);
+  max-width: 600px;
+}
+
+.success h2 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}

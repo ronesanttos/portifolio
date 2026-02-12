@@ -1,0 +1,22 @@
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+}
+
+/* variações reutilizáveis */
+.column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.minHeight {
+  min-height: calc(100vh - 80px); /* ajusta se tiver navbar */
+}
