@@ -17,7 +17,7 @@ function Footer() {
                     <ul className={styles.social}>
                         <li>
                             <a
-                                href="https://github.com/seuusuario"
+                                href="https://github.com/ronesanttos"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub"
@@ -28,7 +28,7 @@ function Footer() {
 
                         <li>
                             <a
-                                href="https://www.linkedin.com/in/seuperfil"
+                                href="https://www.linkedin.com/in/rone-santtos-9531bb1b5/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn"
@@ -38,7 +38,7 @@ function Footer() {
                         </li>
 
                         <li>
-                            <a href="mailto:seuemail@email.com" aria-label="Email">
+                            <a href="devronesantos@gmail.com" aria-label="Email">
                                 <MdEmail />
                             </a>
                         </li>
