@@ -19,7 +19,7 @@ function Hero() {
 
         <div className={styles.actions}>
           <Link to="/projects" className={styles.primary}>Ver Projetos</Link>
-          <Link to="/contatos" className={styles.secondary}>Contato</Link>
+          <Link to="/contato" className={styles.secondary}>Contato</Link>
         </div>
 
       </div>

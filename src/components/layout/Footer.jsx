@@ -38,7 +38,7 @@ function Footer() {
                         </li>
 
                         <li>
-                            <a href="devronesantos@gmail.com" aria-label="Email">
+                            <a href="mailto:devronesantos@gmail.com" aria-label="Email">
                                 <MdEmail />
                             </a>
                         </li>
